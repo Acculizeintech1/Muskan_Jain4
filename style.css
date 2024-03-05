@@ -1,0 +1,190 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    height: 120vh;
+    width: 100vw;
+    background-image: url(/images/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    background-color: white;
+}
+nav .upper_nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 14vh;
+    align-items: center;
+    justify-content: center;
+    border-bottom:1px solid  lightgray;
+}
+nav .upper_nav .icons,nav .upper_nav .logo ,nav .upper_nav .search{
+    padding:2% 20%;
+}
+nav .upper_nav img{
+    width: 10vw; 
+}
+nav .upper_nav .icons{
+    display: flex;
+    font-size: 1em;
+    padding: 0% 5%;
+}
+nav .upper_nav .icons i{
+    border-radius: 50%;
+    border: 1px solid lightgray;
+    padding: 10%;
+    font-size: 1em;
+}
+nav .upper_nav .icons i:hover{
+    background-color: #800080;
+    color: white;
+}
+nav .upper_nav .search{
+    display: flex;
+    align-items: center;
+    padding: 0% 5%;
+}
+nav .upper_nav .search input{
+    background-color:#e9e4ed ;
+    padding: 13px 12px;
+    font-size: 16px;
+    color: #333;
+    border: 1px solid #e9e4ed ;
+    border-radius: 20px 0 0 20px;
+  /* outline: none; */
+}
+nav .upper_nav .search i{
+  padding: 15px;
+  color: white;
+  background-color: #800080;
+  border: none;
+  border-radius: 0 20px 20px 0;
+  cursor: pointer;
+}
+
+
+
+
+/* ---------------------------------------------------------- */
+
+
+nav .lower_nav ul{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    columns: black;
+    list-style: none;
+    height: 10vh;
+    width: 100vw;
+}
+nav .lower_nav ul li a{
+    text-decoration: none;
+    color: #000000;
+    padding: .5rem 1em;
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+nav .lower_nav ul li a:hover{
+    color: #4B0082;
+}
+
+
+
+/* --------------------------------------------------------------------------------------------------- */
+.first{
+    padding-top: 8%;
+}
+.search_business{
+    display: flex;
+    align-items: center;
+    padding: 0% 5%;
+}
+.search_business input{
+    background-color: #f6f3f6;
+    padding: 2% 25% 2% 2%;
+    font-size: 23px;
+    border: 1px solid #C8A2C8;
+    border-radius: 45px 0 0 45px
+}
+.search_business button{
+    font-size: 1.5em;
+    padding: 2%;
+    color: white;
+    background-color: #C8A2C8;
+    border: none;
+    border-radius: 0 45px 45px 0;
+    cursor: pointer;
+}
+.first .listing ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 2% 0 1% 8%;
+}
+.first .listing ul li{
+    padding: 0 1% 0 1%;
+}
+.first .listing ul li a{
+    color: white;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+.first .signup{
+    display:flex ;
+    padding:5% 0 0 10% ;
+}
+.first .signup .arrow{
+    background-color: #4B0082;
+    color: white;
+}
+.first .signup .add_list{
+    background-color: white;
+    color: #4B0082;
+}
+.first .signup button{
+    padding: 1%;
+    font-weight: 300;
+}
+
+
+/* ----------------------------------------------------------------------------------------------------------------------- */
+.companies{
+    height: 100vh;
+    width: 100vw;
+    margin-top: -5%;
+}
+.companies .row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+.companies .col{
+    width: 20vw;
+}
+.companies .row .col i{
+    padding:13%;
+    font-size: 3.5em;
+    color: #4b0082;
+    background-color: #f0dff6;
+    border-radius: 50%;
+}
+.companies .row .col p{
+    font-size: 24px;
+    font-weight:500 ;
+    padding: 6% 0;
+    font-family: 'lora',serif;
+}
+
